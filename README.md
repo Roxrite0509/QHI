@@ -2,9 +2,9 @@
 
 <br/>
 
-<h1>🏥 QHI-Probe</h1>
+<h1>🏥 QHI Probe</h1>
 
-<p><strong>Quantified Hallucination Index for Clinical LLMs<br/>via Sparse Entity-Conditioned Probing</strong></p>
+<p><strong>Quantified Hallucination Index for Clinical LLMs<br/>via Sparse Entity Conditioned Probing</strong></p>
 
 <p>
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8%2B-3776ab?style=flat-square&logo=python&logoColor=white"/></a>
