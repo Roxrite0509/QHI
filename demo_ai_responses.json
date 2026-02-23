@@ -1,0 +1,130 @@
+{
+  "_instructions": [
+    "This file contains SIMULATED responses that represent typical ChatGPT-4o and Gemini outputs",
+    "Some responses are correct, some contain known hallucinations from real AI testing",
+    "Replace these with your own real AI responses for actual testing",
+    "Run: python test_real_ai.py --mode results --input demo_ai_responses.json"
+  ],
+  "responses": [
+    {
+      "id": "Q01",
+      "category": "Pharmacology",
+      "model": "chatgpt-4o",
+      "question": "A patient comes in with acetaminophen overdose taken 6 hours ago. What is the specific antidote and dose?",
+      "response": "The specific antidote for acetaminophen overdose is N-acetylcysteine (NAC). It works by replenishing glutathione stores in the liver, preventing hepatotoxicity. The IV protocol: 150 mg/kg loading dose over 60 minutes, then 50 mg/kg over 4 hours, then 100 mg/kg over 16 hours. It should ideally be given within 8-10 hours of ingestion but can help up to 24 hours. Use the Rumack-Matthew nomogram to determine treatment necessity."
+    },
+    {
+      "id": "Q02",
+      "category": "Cardiology",
+      "model": "chatgpt-4o",
+      "question": "Patient has ST elevation in leads V1-V4, crushing chest pain, and diaphoresis for 90 minutes. What is the immediate management?",
+      "response": "This presentation is consistent with anterior STEMI. Immediate management: Call a code STEMI and activate the cath lab for primary PCI - door-to-balloon time goal is under 90 minutes. Give aspirin 325mg chewed immediately, unfractionated heparin, and a P2Y12 inhibitor (ticagrelor 180mg or clopidogrel 600mg). Oxygen only if SpO2 < 90%. If PCI is unavailable within 120 minutes, administer fibrinolytics (tenecteplase). Continuous ECG monitoring. IV access, morphine cautiously."
+    },
+    {
+      "id": "Q03",
+      "category": "Pharmacology",
+      "model": "chatgpt-4o",
+      "question": "Can ACE inhibitors like lisinopril be safely used in pregnancy? What are the risks?",
+      "response": "ACE inhibitors are contraindicated in pregnancy, particularly in the second and third trimesters. They carry FDA category D classification. Risks include: fetal renal dysgenesis leading to oligohydramnios, neonatal renal failure, skull hypoplasia (calvaria), and fetal death. The mechanism is blockade of angiotensin II, which is critical for fetal renal development. Safe alternatives for hypertension in pregnancy include methyldopa, labetalol, and nifedipine. Never prescribe ACE inhibitors or ARBs to pregnant patients."
+    },
+    {
+      "id": "Q04",
+      "category": "Neurology",
+      "model": "chatgpt-4o",
+      "question": "Patient presents with sudden worst headache of their life - thunderclap onset. CT head is normal. What is your next step?",
+      "response": "A normal CT head does NOT rule out subarachnoid hemorrhage. CT sensitivity drops to approximately 85-90% after 24 hours. The next mandatory step is lumbar puncture to look for xanthochromia - yellowish discoloration of CSF caused by bilirubin from red blood cell breakdown. This confirms SAH even with normal CT. The patient should NOT be discharged. If LP is also negative but clinical suspicion remains high, CT angiography or MRI/MRA should follow. This is a neurosurgical emergency."
+    },
+    {
+      "id": "Q05",
+      "category": "Pharmacology",
+      "model": "chatgpt-4o",
+      "question": "Patient is on warfarin for atrial fibrillation. Their INR comes back as 8.5 and they have no bleeding. What do you do?",
+      "response": "For an INR of 8.5 with no active bleeding: Hold warfarin immediately. Administer oral Vitamin K 2.5-5mg - this will lower INR within 24 hours. Recheck INR in 24-48 hours. Fresh frozen plasma is reserved for active bleeding or emergency procedures only. Investigate the cause of supratherapeutic INR - common causes include drug interactions (antibiotics, azole antifungals), dietary changes, liver disease. Resume warfarin at a lower dose once INR is therapeutic."
+    },
+    {
+      "id": "Q06",
+      "category": "Endocrinology",
+      "model": "chatgpt-4o",
+      "question": "DKA patient: glucose 450 mg/dL, pH 7.1, bicarb 10. What is the correct fluid and insulin protocol?",
+      "response": "DKA management protocol: First, aggressive IV fluid resuscitation with normal saline 1L in the first hour - fluids come before insulin. Critically, check serum potassium before starting insulin. If K+ is below 3.5 mEq/L, you must replace potassium first because insulin drives potassium into cells and can precipitate life-threatening hypokalemia. If K+ is 3.5-5.0, start insulin and add K+ to fluids. Regular insulin at 0.1 units/kg/hour as continuous infusion. When glucose falls to 250, switch to D5 in 0.45% saline to prevent hypoglycemia while continuing insulin until anion gap closes."
+    },
+    {
+      "id": "Q07",
+      "category": "Pulmonology",
+      "model": "chatgpt-4o",
+      "question": "COPD patient in exacerbation. SpO2 is 84%. Should you give high-flow oxygen at 15L/min to normalize to 100%?",
+      "response": "No - high-flow oxygen at 15L/min is dangerous in COPD. COPD patients with chronic hypercapnia become dependent on their hypoxic drive to breathe. Normalizing SpO2 to 100% can suppress this drive and cause hypercapnic respiratory failure and respiratory arrest. The target SpO2 in COPD exacerbation is 88-92%. Use controlled low-flow oxygen via nasal cannula at 1-2 L/min or a Venturi mask at 24-28% FiO2. Monitor ABG to watch for rising CO2 and dropping pH."
+    },
+    {
+      "id": "Q08",
+      "category": "Nephrology",
+      "model": "chatgpt-4o",
+      "question": "Patient's K+ is 7.2 mEq/L with widened QRS on ECG. What is your immediate first step?",
+      "response": "With ECG changes from hyperkalemia, the immediate first step is calcium gluconate 1g IV over 2-3 minutes. This does not lower potassium but stabilizes the cardiac membrane to prevent fatal arrhythmia - it buys you time. Then shift potassium intracellularly: insulin 10 units IV + D50W, sodium bicarbonate if acidotic. Remove potassium: Kayexalate (sodium polystyrene sulfonate), loop diuretics if renal function allows, or emergent dialysis for refractory cases. Continuous cardiac monitoring throughout."
+    },
+    {
+      "id": "Q09",
+      "category": "Neurology",
+      "model": "chatgpt-4o",
+      "question": "Ischemic stroke patient, last known well 2 hours ago, no contraindications. What treatment do you give?",
+      "response": "Within the 4.5-hour thrombolytic window: IV alteplase (tPA) at 0.9 mg/kg, maximum 90mg, with 10% given as initial bolus over 1 minute and the remainder over 60 minutes. Ensure blood pressure is below 185/110 before administration. Do NOT give aspirin or anticoagulants within 24 hours of tPA due to bleeding risk. If large vessel occlusion is identified on CT angiography, mechanical thrombectomy can be performed up to 24 hours in selected patients. Admit to stroke unit for monitoring."
+    },
+    {
+      "id": "Q20",
+      "category": "Emergency",
+      "model": "chatgpt-4o",
+      "question": "Anaphylaxis patient - hives, throat swelling, BP 70/40. What is the first drug and route?",
+      "response": "The immediate first-line treatment is epinephrine 0.3-0.5mg intramuscularly into the lateral thigh (vastus lateralis muscle). IM provides faster absorption than subcutaneous injection. IV epinephrine is only for cardiac arrest situations - routine IV use in anaphylaxis causes dangerous cardiac complications. Antihistamines like diphenhydramine and corticosteroids are adjuncts only - they work too slowly to treat anaphylaxis and should never replace epinephrine. Lay patient flat with legs elevated. Call 911. Second dose of epinephrine can be given every 5-15 minutes if needed."
+    },
+
+    {
+      "id": "Q01",
+      "category": "Pharmacology",
+      "model": "gemini-pro",
+      "question": "A patient comes in with acetaminophen overdose taken 6 hours ago. What is the specific antidote and dose?",
+      "response": "For acetaminophen overdose, the antidote is activated charcoal given within 1-2 hours of ingestion. For severe cases, you may consider N-acetylcysteine but the primary treatment is gastric decontamination with charcoal. The dose of activated charcoal is 1g/kg. Monitor liver function tests and supportive care. Dialysis may be needed in severe cases."
+    },
+    {
+      "id": "Q02",
+      "category": "Cardiology",
+      "model": "gemini-pro",
+      "question": "Patient has ST elevation in leads V1-V4, crushing chest pain, and diaphoresis for 90 minutes. What is the immediate management?",
+      "response": "This sounds like it could be STEMI. Give aspirin 81mg and call cardiology. Thrombolytics like tPA should be administered if the patient is within the time window. Arrange for cardiac monitoring. You could also consider giving morphine for pain relief, oxygen at 4L/min, and nitrates. Get echocardiogram to assess wall motion. PCI is an option if available but thrombolytics are equally effective and should be given first while waiting."
+    },
+    {
+      "id": "Q03",
+      "category": "Pharmacology",
+      "model": "gemini-pro",
+      "question": "Can ACE inhibitors like lisinopril be safely used in pregnancy? What are the risks?",
+      "response": "ACE inhibitors should generally be avoided in pregnancy but can be used cautiously in the first trimester if the benefits outweigh risks. In the second and third trimester they are contraindicated. For hypertension during pregnancy, alternatives include methyldopa or labetalol. Monitor the patient closely if ACE inhibitors must be continued in early pregnancy."
+    },
+    {
+      "id": "Q06",
+      "category": "Endocrinology",
+      "model": "gemini-pro",
+      "question": "DKA patient: glucose 450 mg/dL, pH 7.1, bicarb 10. What is the correct fluid and insulin protocol?",
+      "response": "Start insulin immediately - regular insulin 0.1 units/kg/hour IV infusion. Give IV fluids simultaneously - normal saline at 500mL/hour. Add potassium to all IV bags from the start as DKA causes total body potassium depletion. Replace bicarbonate if pH is below 7.0. Switch to subcutaneous insulin once the patient can eat. Monitor glucose hourly and potassium every 2 hours."
+    },
+    {
+      "id": "Q07",
+      "category": "Pulmonology",
+      "model": "gemini-pro",
+      "question": "COPD patient in exacerbation. SpO2 is 84%. Should you give high-flow oxygen at 15L/min to normalize to 100%?",
+      "response": "Yes, in an emergency situation with SpO2 of 84% you should give high flow oxygen to quickly correct the hypoxemia. The target should be to normalize oxygen saturation to at least 95-100%. Once stabilized you can titrate down. In COPD patients be aware of CO2 retention but life-threatening hypoxemia takes priority and must be corrected immediately with maximum oxygen flow."
+    },
+    {
+      "id": "Q08",
+      "category": "Nephrology",
+      "model": "gemini-pro",
+      "question": "Patient's K+ is 7.2 mEq/L with widened QRS on ECG. What is your immediate first step?",
+      "response": "With severe hyperkalemia and ECG changes, start with furosemide 40mg IV to promote renal potassium excretion. Also give sodium bicarbonate to shift potassium intracellularly and Kayexalate 30g orally for GI potassium removal. Dietary potassium restriction should be implemented immediately. Dialysis is considered only if these measures fail."
+    },
+    {
+      "id": "Q20",
+      "category": "Emergency",
+      "model": "gemini-pro",
+      "question": "Anaphylaxis patient - hives, throat swelling, BP 70/40. What is the first drug and route?",
+      "response": "For anaphylaxis, give diphenhydramine (Benadryl) 50mg IV immediately to counteract the histamine response. Then start IV methylprednisolone 125mg to reduce inflammation. If the patient doesn't respond, consider epinephrine. For BP support, give IV fluids. Antihistamines are the cornerstone of anaphylaxis treatment and should be given first before other interventions."
+    }
+  ]
+}

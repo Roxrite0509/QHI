@@ -1,0 +1,87 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-wheel-metadata/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ── PyTest ────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── ML / Model files (too large for git) ──────────────────────
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.joblib
+models/
+checkpoints/
+
+# ── Sensitive / Personal ──────────────────────────────────────
+.env
+.env.*
+secrets.py
+secrets.json
+*_secret*
+*_private*
+*.key
+ai_responses.json          # may contain personal test data
+results/collected_responses.json
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ── Data (large files) ────────────────────────────────────────
+*.csv
+*.parquet
+*.arrow
+data/cache/
+data/raw/
+datasets/
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+wandb/
+mlruns/
+
+# ── Docs build ────────────────────────────────────────────────
+docs/_build/
+site/

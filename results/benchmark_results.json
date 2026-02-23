@@ -1,0 +1,41 @@
+{
+  "benchmark": {
+    "datasets": [
+      "demo"
+    ],
+    "n_per_source": 600,
+    "total_train": 480,
+    "total_test": 120
+  },
+  "qhi_probe": {
+    "auc_roc": 1.0,
+    "avg_precision": 1.0,
+    "f1": 0.7606,
+    "severity_pearson_r": 0.9533,
+    "avg_latency_ms": 0.946,
+    "p95_latency_ms": 1.148,
+    "gate_auto_use": 85,
+    "gate_review": 35,
+    "gate_block": 0,
+    "n_test": 120,
+    "probe_c_auc": 1.0,
+    "probe_r_acc": 0.8958,
+    "probe_v_auc": 0.9803,
+    "train_time_s": 0.346,
+    "n_samples": 480,
+    "n_hallucinated": 178,
+    "n_clean": 302
+  },
+  "baselines": {
+    "random": {
+      "auc_roc": 0.4719,
+      "avg_precision": 0.3683,
+      "f1": 0.3922
+    },
+    "confidence_only": {
+      "auc_roc": 1.0,
+      "avg_precision": 1.0,
+      "f1": 1.0
+    }
+  }
+}
